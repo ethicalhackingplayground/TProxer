@@ -1,5 +1,3 @@
-## TProxer
-
 <h1 align="center">TProxer
   <br>
 <img src="https://media.istockphoto.com/vectors/spy-agent-detective-vector-id911660874?k=20&m=911660874&s=612x612&w=0&h=1zkZPaYJ1o8948xDc5ikQ2bKbyuPzsZQrZaKBnO55_4=" width="200px" alt="Erebus">
@@ -56,8 +54,8 @@ Enjoy
 
 ### Todo
 
-- [x] Make a better design
-- [x] Add more customization.
+- [ ] Make a better design
+- [ ] Add more customization.
 
 ### License
 
