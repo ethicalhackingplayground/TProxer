@@ -100,7 +100,7 @@ class uiTab(JFrame):
 
 		self.wordlistLabel.setText("Wordlist")
 
-		self.queryPayloadsLabel.setText("Query Payloads")
+		self.queryPayloadsLabel.setText("Traversal Payloads")
 
 		queryTableData = []
 		for queryPayload in queryPayloadsFromFile:
