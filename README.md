@@ -33,7 +33,7 @@
 - Then, we try to discover content, if anything is found it performs additional test to see if it's 100% internal and worth investigating.
 - Supports manual activation through context menu.
 - Payloads are supplied by the user under dedicated tab, default values are stored under `query payloads.txt`
-- You also selct your own wordlist
+- You can also select your own wordlist
 - Issues are added under the Issue Activity tab.
 
 ### Install
