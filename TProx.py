@@ -1,5 +1,6 @@
 from burp import IBurpExtender, IScanIssue, IScannerCheck, IContextMenuFactory, ITab
 from javax.swing import JMenuItem, JFileChooser
+from java.awt import Font
 from javax.swing import JPanel, JButton, JTable, table, JLabel, JScrollPane, JTextField, GroupLayout, LayoutStyle, JFrame
 import java.util.ArrayList as ArrayList
 import java.lang.String as String
@@ -116,7 +117,6 @@ class uiTab(JFrame):
 
 		layout = GroupLayout(self.panel)
 		self.panel.setLayout(layout)
-
 
 		layout.setHorizontalGroup(
 			layout.createParallelGroup(GroupLayout.Alignment.LEADING)
@@ -403,7 +403,7 @@ class CustomScanIssue (IScanIssue):
 		return extentionName + " sent a request and got 400 Bad Request Response. " + extentionName + " sent another request then got a 404 Not Found response, then found a potential backend asset through content discovery, this may indicate a misconfiguration on the server side that allows access to internal assests through a path based SSRF attack."
 
 	def getRemediationBackground(self):
-		return  extentionName + " Suggests that you fix up your reverse proxy rules to disallow traversal attacks through correct regex patterns. For additional advice would be to also implement a Web Application Firewall to furthe increase the security tightness."
+		return  extentionName + " Suggests that you fix up your reverse proxy rules to disallow traversal attacks through correct regex patterns. For some additional advice would be to also implement a Web Application Firewall to further increase the security tightness."
 
 	def getIssueDetail(self):
 		return self._detail
