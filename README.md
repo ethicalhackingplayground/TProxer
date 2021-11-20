@@ -22,7 +22,10 @@
 
 ---
 
-![Demo](https://github.com/ethicalhackingplayground/TProxer/blob/main/static/demo.png)
+<h1 align="center">
+  <br>
+    <img src="https://github.com/ethicalhackingplayground/TProxer/blob/main/static/demo.png" width="500px" alt="TProxer">
+</h1>
 
 ### How it works
 
@@ -36,6 +39,7 @@
 - You can also select your own wordlist
 - Issues are added under the Issue Activity tab.
 
+---
 ### Install
 
 ```bash
@@ -50,10 +54,15 @@ $ git clone https://github.com/ethicalhackingplayground/TProxer
 - Go to Python Environment -> Select file -> Select jython.jar
 - Go to Extensions -> Add -> TProx.py
 
+
+---
+
 ### Todo
 
 - [ ] Make a better design
 - [ ] Add more customization.
+
+---
 
 ### License
 
