@@ -50,8 +50,6 @@ $ git clone https://github.com/ethicalhackingplayground/TProxer
 - Go to Python Environment -> Select file -> Select jython.jar
 - Go to Extensions -> Add -> TProx.py
 
-Enjoy
-
 ### Todo
 
 - [ ] Make a better design
@@ -59,7 +57,7 @@ Enjoy
 
 ### License
 
-Erebus is distributed under [MIT License](https://github.com/ethicalhackingplayground/erebus/blob/main/LICENSE)
+TProxer is distributed under [MIT License](https://github.com/ethicalhackingplayground/TProxer/blob/main/LICENSE)
 
 <h1 align="left">
   <a href="https://discord.gg/MQWCem5b"><img src="static/Join-Discord.png" width="380" alt="Join Discord"></a>
