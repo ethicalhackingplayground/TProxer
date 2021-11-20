@@ -1,4 +1,5 @@
 ## TProxer
+
 A Burp Suite extension made to automate the process of finding reverse proxy path based SSRF.
 
 ![Demo](https://github.com/ethicalhackingplayground/TProxer/blob/main/static/demo.png)
@@ -17,5 +18,5 @@ A Burp Suite extension made to automate the process of finding reverse proxy pat
 
 ### TODO
 
-- [x] N/A
-- [ ] N/A
+- [x] Make a better design
+- [x] Add more customization.
