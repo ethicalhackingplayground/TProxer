@@ -16,7 +16,7 @@
 <p align="center">
   <a href="#how-it-works">How</a> •
   <a href="#install">Install</a> •
-  <a href="#todo">Install</a> •
+  <a href="#todo">Todo</a> •
   <a href="https://discord.gg/MQWCem5b">Join Discord</a> 
 </p>
 
@@ -40,6 +40,7 @@
 - Issues are added under the Issue Activity tab.
 
 ---
+
 ### Install
 
 ```bash
@@ -53,7 +54,6 @@ $ git clone https://github.com/ethicalhackingplayground/TProxer
 - Load burp, Extender -> Options
 - Go to Python Environment -> Select file -> Select jython.jar
 - Go to Extensions -> Add -> TProx.py
-
 
 ---
 
