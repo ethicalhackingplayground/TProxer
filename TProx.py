@@ -65,13 +65,13 @@ class uiTab(JFrame):
 	def wordlistClearButtonClicked(self, event):
 		global requestNum
 		requestNum = 2
-		tableModel = self.headerPayloadsTable.getModel()
+		tableModel = self.wordlistTable.getModel()
 		tableModel.setRowCount(0)
 
 	# The button to remove a single wordlist item.
 	def wordlistRemoveButtonClicked(self, event):
-		tableModel = self.headerPayloadsTable.getModel()
-		selectedRows = self.headerPayloadsTable.getSelectedRows()
+		tableModel = self.wordlistTable.getModel()
+		selectedRows = self.wordlistTable.getSelectedRows()
 		for row in selectedRows:
 			tableModel.removeRow(row)
 		global requestNum
