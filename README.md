@@ -51,6 +51,8 @@ $ git clone https://github.com/ethicalhackingplayground/TProxer
 
 [https://www.jython.org/download.html](https://www.jython.org/download.html)
 
+**Make sure you use Jython 2.7.2**
+
 - Load burp, Extender -> Options
 - Go to Python Environment -> Select file -> Select jython.jar
 - Go to Extensions -> Add -> TProx.py
